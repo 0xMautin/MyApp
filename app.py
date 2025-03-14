@@ -1,10 +1,12 @@
-score = int(input("Enter your score: "))
+nstudent = int (input("Enter the number of students: "))
 
+score = int(input("Enter your score: "))
 if score >= 80:
-    print("Excellent")  
+    value ="Excellent" 
 elif score >= 60:
-    print("Very good")
+    value ="Very good"
 elif score >= 40:
-    print("Good")
+    value ="Good"
 elif score >=0:
-    print("You need to study more")
+    value ="You need to study more"
+print(f"{value}\n"* 16)
